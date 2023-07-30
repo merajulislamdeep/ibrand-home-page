@@ -1,0 +1,1292 @@
+/* Header stert  */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #f5df4e !important;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left: 80px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #212529;
+    cursor: pointer;
+}
+header .logo:hover{
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+header .headText{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 80px;
+    padding-top: 25px;
+}
+
+
+.headText{
+    display: flex;
+}
+
+
+
+header .headText .Hfive{
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+}
+.headText i{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: -26px;
+    padding: 0 10px;
+}
+.headText #next{
+    font-size: 25px;
+    margin: -3px 10px;
+    cursor: pointer;
+    margin-top: -30px;
+}
+.headText #next:hover{
+    color: #FFFFFF;
+    transition: all 0.5s ease-in-out;
+}
+/* Header End  */
+
+
+/* Section one stert */
+.sectionONE{
+    padding-top: 81px;
+    background-color: #f5df4e !important;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+.prandONE{
+    width: 60%;
+}
+.parandTWO{
+    width: 40%;
+}
+.prandONE{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.parandTWO{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.parandTWO img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.prandONE .Htow{
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -10px;
+    color: #212529;
+    font-weight: 300 !important;
+}
+.prandONE .Hone{
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #212529;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    margin-left: -5px;
+    margin-top: -18px;
+}
+.prandONE .Pone{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0px;
+    margin-left: -1px;
+}
+.prandONE input{
+    padding: 13px 60px;
+    margin-top: 22px;
+    background-color: #212529;
+    outline: none;
+    color: white;
+    border: 1px solid #212529;
+    cursor: pointer;
+    font-size: 18px;
+}
+.prandONE input:hover{
+    box-shadow: 5px 10px 30px rgba(13, 13, 14, 0.5);
+    transition: all 0.2s ease-in ;
+}
+
+.parandTWO{
+    padding-right: 80px;
+    margin-top: 50px;
+}
+.parandTWO img{
+    border-radius: 50em !important;
+    border: 15px solid white;
+    height: 420px;
+}
+
+.icon{
+    margin-left: -112px;
+    margin-top: 160px;
+    font-size: 25px;
+    color: #212529;
+}
+
+/* Section one End */
+
+
+/* Section Two stert */
+.sectionTwo{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.sectionText{
+    text-align: center;
+}
+.sectionText .Ponee{
+    width: 90px;
+    color: #212529;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5df4e;
+    padding: 2px;
+    margin-left: 580px;
+    
+}
+.sectionText .Honee{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    position: absolute;
+    margin-left: 495px;
+    padding: 8px;
+}
+
+
+
+/* Section Two End */
+
+
+.SectionTree{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.sectionTowText{
+    width: 60%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.sectionTowText .Honeee{
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    margin-left: 8px;
+    font-weight: normal;
+    line-height: 0;
+    margin-bottom: 8px;
+    color: #212529;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 795;
+    border-bottom: 1px solid #f5df4e;
+    border-width: 4px!important;
+    color: #212529;
+    cursor: pointer;
+}
+span:hover{
+    border-bottom: none;
+}
+.sectionTowText .Poneee{
+    font-size: 1.45rem ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 480;
+    line-height: 38px;
+    word-spacing: 2px;
+    margin-top: 40px;
+    color: #212529;
+}
+
+
+.sectionTwoImg{
+    margin-left: 25px;
+}
+.sectionTwoImg img{
+    margin-top: -40px;
+}
+
+
+.sectionFor{
+    width: 100%;
+    height: 120px;
+    background-color: #f5df4e;
+}
+.sectionFor div{
+    float: left;
+    width: 21%;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    left: 85px;
+}
+
+.Ptoww{
+    margin-left: 10px;
+    margin-bottom: -40px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.sectionFor .Htoww{
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    position:absolute;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+
+.sectionFive{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.sectionFive{
+    text-align: center;
+}
+.sectionFive .PTre{
+    width: 100px;
+    color: #212529;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5df4e;
+    padding: 2px 6px;
+    margin-left: 580px;
+    
+}
+.sectionFive .HonE{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    position: absolute;
+    margin-left: 328px;
+    padding: 8px;
+}
+
+
+
+
+
+.SectionSix{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.ser1, .ser2{
+    width: 100%;
+    overflow: hidden;
+}
+.ser1 div, .ser2 div{
+    width: 32%;
+    float: left;
+    padding: 6px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.SectionSix i{
+    font-size: 55px;
+    color: #f5df4e;
+}
+.SectionSix h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    margin-bottom: 0;
+}
+.SectionSix p{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+
+
+
+.sectionSaven{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 150px;
+    margin-bottom: 40px;
+}
+.sectionSaven{
+    text-align: center;
+}
+.sectionSaven .PTreE{
+    width: 100px;
+    color: #212529;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5df4e;
+    padding: 2px 6px;
+    margin-left: 580px;
+    
+}
+.sectionSaven .HonEe{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    position: absolute;
+    margin-left: 396px;
+}
+
+
+
+
+.sectionEight{
+    width: 88%;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 100px;
+}
+.sectionEight .HONE{
+    color: #212529;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: -175px;
+    margin-top: -50px;
+}
+.sectionEight hr{
+    opacity: 0.3;
+    width: 100%;
+    margin-top: 30px;
+}
+.Eight, .Eightt{
+    width: 40%;
+    padding: 20px;
+    border-left: 2px solid #f5df4e;
+}
+.Eight p, .Eightt p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -1px;
+    line-height: 30px;
+}
+.Eight h3, .Eightt h3{
+    color: #212529;
+    margin-bottom: 6px;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Eight h5, .Eightt h5{
+    color: #212529;
+    margin: 0 2px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 30px;
+}
+.Eight .HTRE, .Eightt .HTRE{
+    padding-top: 0px;
+}
+
+
+
+
+.sectionNine{
+    width: 78%;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.text h1{
+    color: #212529;
+    padding-left: 12px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img img{
+    width: 98%;
+    height: 200px;
+}
+
+
+.sectionNine input{
+    color: #212529;
+    padding: 15px 40px;
+    border: 2px solid #212529;
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 401px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.sectionNine input:hover{
+    color: #FFFFFF;
+    background-color: #212529;
+    transition: all 0.5s ease-in;
+}
+
+
+
+.sectionTen{
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.sectionTen{
+    text-align: center;
+}
+.sectionTen .PTreEe{
+    width: 100px;
+    color: #212529;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5df4e;
+    padding: 2px 6px;
+    margin-left: 580px;
+    
+}
+.sectionTen .HonEeE{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    position: absolute;
+    margin-left: 325px;
+}
+
+
+
+
+
+.sectionEleven{
+    width: 100%;
+    height: 100px;
+}
+.Nebaebar{
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.Nebaebar ul{
+    text-align: center;
+}
+.Nebaebar ul li{
+    float: left;
+    padding-left: 25px;
+    list-style: none;
+}
+
+.Nebaebar ul li .AA{
+    color: #212529;
+    border-bottom: 3px solid #f5df4e;
+}
+.Nebaebar ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    transition: all 0.3s ease-out;
+}
+.Nebaebar ul li a:hover{
+    color: #f5df4e;
+    transition: all 0.3s ease-in;
+}
+
+
+
+
+.sectionTwelf{
+    width: 100%;
+    box-sizing: border-box;
+}
+.sectionTwelf .portfolio{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.sectionTwelf .portfolio div{
+    width: 340px;
+    height: 390px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.sectionTwelf figure{
+    background: linear-gradient(40deg, #1c1c1d 40%, #232627);
+    width: 340px;
+    height: 390px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.sectionTwelf figure img{
+    width: 100%;
+    height: 100%;
+}
+.sectionTwelf figure:hover img{
+    opacity: 0.2;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.fortin{
+    width: 100%;
+    height: 700px;
+    padding-top: 100px;
+
+}
+.fortin .upra{
+    width: 80%;
+    height: auto;
+    padding-left: 105px;
+    margin-bottom: -55px;
+}
+.fortin .upra p{
+    width: 50px;
+    padding: 3px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    margin-left: -3px;
+    background-color: #f5df4e;
+    text-align: center;
+    color: #212529;
+}
+
+.fortin .upra h1{
+    position: absolute;
+    margin-left: -3px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+
+
+.fortin .FortinOne{
+    width: 90%;
+    height: auto;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.fortin .FortinOne #One{
+    width: 50%;
+    float: left;
+    padding: 0 30px;
+}
+.fortin .FortinOne #Two{
+    width: 50;
+    height: auto;
+    margin-top: -150px;
+}
+
+.fortin .FortinOne #Hone{
+    font-size: 24px;
+    font-weight: 600;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fortin .FortinOne p{
+    margin-top: -3px;
+    width: 98%;
+    line-height: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #212529;
+}
+
+.fortin .FortinOne h1{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.fortin .FortinOne hr{
+    opacity: 0.4;
+}
+
+
+
+.Fiftin{
+    width: 100%;
+    height: 600px;
+    background-color: #939597 !important;
+}
+.Fiftin .mainOne{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.Fiftin .mainOne #Tow p{
+    width: 20%;
+    background-color: #f5df4e;
+    color: #212529;
+    font-size: 18px;
+    padding: 2px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    margin-left: 255px;
+}
+.Fiftin .mainOne #Tow h1{
+    position: absolute;
+    line-height: 50px;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Fiftin .mainOne #TowO p{
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.Fiftin .mainOne #TowO i{
+    margin-bottom: 200px;
+    font-size: 100px;
+    color: #FFFFFF;
+    margin-right: -16px;
+}
+.Fiftin .mainOne #TowO h1{
+    margin-top: -180px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #f5df4e;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.Sixtin{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-color: #f5df4e;
+}
+
+.Sixtin .PrandDiv{
+    width: 95%;
+    padding: 0 80px;
+    margin-top: 70px;
+}
+.Sixtin .PrandDiv .LeftCorner, .RightCorner{
+    float: left;
+    width: 40%;
+    padding: 0 30px;
+}
+
+/* LeftCorner Stert */
+.PrandDiv .FirstCorner{
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+.PrandDiv .LeftCorner .FirstPtag{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    line-height: 30px;
+    font-weight: 500;
+    padding:30px 0;
+}
+.PrandDiv .LeftCorner .FirstHtag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #212529;
+}
+.PrandDiv .LeftCorner .SectinPtag{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    line-height: 30px;
+    font-weight: 500;
+    line-height: 2px;
+}
+.PrandDiv .LeftCorner .TherdPtag{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    line-height: 30px;
+    font-weight: 500;
+    line-height: 2px;
+}
+.PrandDiv .LeftCorner #One, #Two, #Tree, #Fore, #Five{
+    font-size: 25px;
+    padding: 40px 20px;
+    color: #3b3c3d !important;
+    margin-left: -15px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.Sixtin .PrandDiv .LeftCorner i:hover{
+    box-shadow: 5px 10px 15px rgba(13, 13, 14, 0.5);
+    border-radius: 15px;
+    transition: all 0.5s ease-in;
+    text-shadow: 2px 5px 8px rgb(255, 255, 255);
+}
+/* LeftCorner End */
+
+
+
+/* RightCorner Stert */
+
+
+.Sixtin .PrandDiv .RightCorner form{
+    display: grid;
+}
+
+.Sixtin .PrandDiv .RightCorner form input,textarea{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    width: 110%;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #212529;
+}
+.Sixtin .PrandDiv .RightCorner form label{
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.Sixtin .PrandDiv .RightCorner button{
+    width: 30%;
+    height: 45px;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: #212529;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sixtin .PrandDiv .RightCorner button:hover{
+    box-shadow: 5px 10px 30px rgba(13, 13, 14, 0.5);
+    transition: all 0.2s ease-in ;
+    cursor: pointer;
+}
+/* RightCorner End */
+
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #212529;
+    overflow: hidden;
+}
+footer .Footer, .footer{
+    float: left;
+    padding-top: 50px;
+    color: #FFFFFF;
+    padding: 50px 175px;
+}
+footer .Footer .footH{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .footer .FootH{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer .SpanFoot{
+    color: #f5df4e;
+    font-size: 15px;
+    border: none;
+}
+
+@media(max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 40px;
+        padding: 20px;
+    }
+    header .headText{
+        display: none;
+    }
+
+
+
+    .sectionONE{
+        width: 100%;
+        height: 680px;
+        display: block;
+        padding-top: 110px;
+        margin-bottom: 400px;
+    }
+    .prandONE{
+        margin: auto;
+        padding: 0;
+        
+    }
+    .prandONE .Htow{
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .prandONE .Hone{
+        font-size: 70px;
+    }
+    .prandONE .Pone{
+        margin-top: -20px;
+        font-size: 18px;
+    }
+    .prandONE input{
+        display: block;
+        margin-top: 0;
+        padding: 10px 40px;
+        font-size: 12px;
+    }
+
+
+    .parandTWO{
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-left: 90px;
+    }
+    .parandTWO img{
+        width: 60%;
+        height: 60%;
+        margin: 0 auto;
+    }
+    .parandTWO .icon{
+        padding-left: 252px;
+        margin-top: 40px;
+    }
+
+
+
+
+
+    .sectionTwo{
+        width: 100%;
+        height: 40px;
+    }
+    .sectionTwo .sectionText{
+        margin-top: -350px;
+        margin-left: -380px;
+    }
+    .sectionTwo .sectionText .Ponee{
+        font-size: 15px;
+        margin-bottom: -20px;
+    }
+    .sectionTwo .sectionText .Honee{
+        font-size: 30px;
+        padding-left: 28px;
+    }
+    
+
+    .SectionTree{
+        width: 100%;
+        display: block;
+        margin-top: 100px;
+        margin-bottom: 260px;
+    }
+    .SectionTree .sectionTowText{
+        padding-left: 85px;
+        text-align: center;
+        
+    }
+    .SectionTree .sectionTowText .Honeee{
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .sectionTowText .Poneee{
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 32px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    
+
+
+    .sectionFor{
+        margin-top: 250px;
+        width: 100%;
+        height: auto;
+        margin-left: -30px;
+        margin-bottom: 380px;
+    }
+
+    .sectionFor .Ptoww{
+        font-size: 12px;
+    }
+    .sectionFor .Htoww{
+        font-size: 10px;
+    }
+
+
+
+    .sectionFive{
+        width: 100%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .sectionFiveText{
+        margin-top: 350px;
+        margin-left: -380px;
+    }
+    .sectionFiveText .PTre{
+        font-size: 15px;
+    }
+    .sectionFiveText .HonE{
+        margin-top: 5px;
+        width: 80%;
+        font-size: 30px;
+        margin-left: 435px;
+    }
+    .SectionSix{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 70px;
+    }
+    .ser1, .ser2{
+        width: 100%;
+        overflow: hidden;
+    }
+    .ser1{
+        padding-top: 50px;
+    }
+    .ser2{
+        padding-top: 30px;
+    }
+    .ser1 div, .ser2 div{
+        width: 80%;
+        padding: px;
+        margin: 100px 15px;
+        text-align: center;
+        margin-top: -50px;
+        transition: all 0.3s ease-out;
+    }
+    .ser1 div:hover{
+        box-shadow: 5px 8px 12px rgba(77, 74, 74, 0.2);
+        border-radius: 10px;
+        transition: all 0.3s ease-in;
+    }
+    .ser2 div:hover{
+        box-shadow: 5px 8px 12px rgba(77, 74, 74, 0.2);
+        border-radius: 10px;
+        transition: all 0.3s ease-in;
+    }
+
+    .sectionSaven{
+        width: 100%;
+        overflow: hidden;
+    }
+    .sectionSaven .sectionSavenText{
+        width: 80%;
+        margin-top: -150px;
+        margin-left: -380px;
+    }
+    .sectionSavenText .PTreE{
+        font-size: 15px;
+        margin-left: 570px;
+    }
+    .sectionSavenText .HonEe{
+        font-size: 30px;
+        margin-left: 440px;
+        
+    }
+
+
+
+    .sectionEight{
+        width: 100px;
+        height: auto;
+        display: block;
+        margin-top: -140px;
+        margin-bottom: -170px;
+    }
+    .sectionEight .HONE{
+        margin-bottom: -90px;
+        margin-left: -105px;
+    }
+    .sectionEight .Eight, .Eightt{
+        width: 350%;
+        height: auto;
+        margin-left: -100px;
+        margin-bottom: 120px;
+    }
+
+
+
+    .sectionNine{
+        width: 100%;
+        height: 380px;
+        overflow: hidden;
+    }
+    .sectionNine .text, .img{
+        margin-left: 40px;
+    }
+    .sectionNine .text h1{
+        font-size: 28px;
+        margin-left: -10px;
+    }
+    .sectionNine img{
+        width: 95%;
+        height: 150px;
+    }
+
+
+    .sectionNine input{
+        margin-left: 150px;
+        padding: 10px 30px;
+    }
+    .sectionNine input:hover{
+        box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.5);
+    }
+
+
+    .sectionTen{
+        width: 100%;
+        height: 50px;
+    }
+    .sectionTen .sectionTenText{
+        margin-top: -100px;
+        margin-bottom: 200px;
+    }
+    .sectionTenText .PTreEe{
+        margin-left: 186px;
+    }
+    .sectionTenText .HonEeE{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+
+
+    .sectionEleven{
+        width: 100%;
+        height: 100px;
+    }
+    .sectionEleven .Nebaebar{
+        width: 100%;
+        margin-left: -10px;
+    }
+    .Nebaebar ul li{
+        padding-right: 0;
+    }
+    .Nebaebar ul li a{
+        font-size: 15px;
+        font-weight:700;
+        margin-left: -10px;
+    }
+
+
+    .fortin{
+        width: 100%;
+        height: auto;
+    }
+    .fortin .upra{
+        margin-left: -50px;
+    }
+    .fortin .upra p{
+        font-size: 15px;
+    }
+    .fortin .upra h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .fortin .FortinOne{
+        width: 150%;
+        margin-left: 23px;
+        margin-top: -80px;
+    }
+    .FortinOne #One #Hone{
+        font-size: 25px;
+        margin-left: -10px;
+    }
+    .FortinOne #One p{
+        font-size: 18px;
+        color: #212529;
+    }
+    .FortinOne #One h1{
+        font-size: 18px;
+        margin-left: -10px;
+    }
+
+    .FortinOne #Two{
+        width: 100%;
+        overflow: hidden;
+        margin-left: 20px;
+    }
+    .FortinOne #Two img{
+        width: 50%;
+        height: 50%;
+    }
+
+
+
+    .Fiftin{
+        width: 100%;
+        height: 650px;
+    }
+    .Fiftin .mainOne{
+        width: 100%;
+    }
+    .Fiftin .mainOne #Tow p{
+        margin-left: 200px;
+        font-size: 15px;
+        margin-bottom: -15px;
+        
+    }
+    .Fiftin .mainOne #Tow h1{
+        font-size: 30px;
+    }
+    .Fiftin .mainOne #TowO p{
+        width: 80%;
+        font-size: 18px;
+        margin: 0 auto;
+        margin-top: 140px;
+        margin-bottom: 50px;
+    }
+    .Fiftin .mainOne #TowO i{
+        margin-left: -10px;
+    }
+    .Fiftin .mainOne #TowO h1{
+        margin: 0 auto;
+        border-bottom: 1px solid #f5df4e;
+        width: 50%;
+        margin-top: -180px;
+    }
+
+
+
+    .Sixtin{
+        width: 100%;
+        height: 1120px;
+        margin-top: -50px;
+        display: flex;
+    }
+    .Sixtin .PrandDiv{
+        width: 100%;
+        margin-left: -50px;
+        margin-top: -25px;
+    }
+    .Sixtin .PrandDiv .LeftCorner{
+        width: 100%;
+    }
+    .Sixtin .PrandDiv .LeftCorner .FirstCorner{
+        margin-top: 80px;
+        margin-bottom: -20px;
+    }
+
+    .Sixtin .PrandDiv .FirstCorner{
+        font-size: 30px;
+    }
+    .Sixtin .PrandDiv .LeftCorner .FirstPtag{
+        font-size: 17px;
+    }
+
+    .Sixtin .PrandDiv .RightCorner{
+        width: 90%;
+    }
+    
+
+    footer{
+        width: 100%;
+    }
+    .Footer{
+        width: 100%;
+    }
+    footer .Footer .footH{
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: 40px;
+    }
+    footer .footer .FootH{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    footer .Footer, .footer {
+        padding: 5px;
+        margin-left: 150px;
+    }
+
+
+
+}
+
